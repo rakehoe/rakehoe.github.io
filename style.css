@@ -21,7 +21,7 @@ a {
     border-color: #002409;
     color: #005A18;
     display: block; /* Ensure anchor tags behave as block elements */
-    width: 300px; /* Ensure anchor tags fill the entire width */
+    width: 200px; /* Ensure anchor tags fill the entire width */
     text-align: center; /* Center the text within the anchor tags */
 }
 
@@ -48,9 +48,9 @@ li {
 }
 
 /* Styles for responsive behavior */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     a{
-        width: 70vmax;
+        width: 260px;
     }
     .header {
         flex-direction: column;
@@ -63,7 +63,6 @@ li {
     
     li {
         margin-bottom: 1%;
-        width: 100%;
     }
 }
 
