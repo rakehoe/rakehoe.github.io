@@ -9,16 +9,16 @@ a.click:hover {
 }
 
 a {
-    font-size: 30px;
-    padding: 10px 30px 10px 30px;
+    font-size: 150%;
+    padding: 1% 3% 1% 3%;
     border: solid;
     border-color: #002409;
     color: #005A18;
 }
 
 ul {
-    padding: 30px;
-    margin: 10px;
+    padding: 3%;
+    margin: 1%;
     
 }
 
