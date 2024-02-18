@@ -16,7 +16,7 @@ a:hover{
 /* Common styles for anchor tags */
 a {
     font-size: 30px;
-    padding: 2% 5% 2% 5%;
+    padding: 2%;
     border: solid;
     border-color: #002409;
     color: #005A18;
@@ -30,7 +30,6 @@ a {
     display: flex;
     align-items: center;
     background-color: #04290d;
-    padding: 15px;
     width: 100%;
 }
 
@@ -53,15 +52,12 @@ li {
 /* Styles for responsive behavior */
 @media screen and (max-width: 700px) {
     .header {
-        flex-direction: column;
+        /* flex-direction: column; */
         text-align: center;
     }
     
-    ul {
-        flex-direction: column;
-    }
-    
     li {
+        width: 100px;
         margin-bottom: 1%;
     }
 }
