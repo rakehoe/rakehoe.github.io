@@ -89,17 +89,3 @@ h1 {
 .h {
     float: left;
 }
-
-
-/*
-.profile:hover .submenu{
-    display: block;
-}
-.submenu{
-    display: none;
-    position: absolute;
-    list-style: none;
-    top: 28;
-    left: 0;
-}
-*/
