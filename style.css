@@ -8,7 +8,7 @@ a:hover{
     border-color: #228C3E;
 }
 
-.Index-Button, .Profile-Button, .Contact-Button{
+.click{
     color: #19692f;
     border-color: #19692f;
 }
@@ -20,9 +20,9 @@ a {
     border: solid;
     border-color: #002409;
     color: #005A18;
-    display: block; /* Ensure anchor tags behave as block elements */
-    width: 200px; /* Ensure anchor tags fill the entire width */
-    text-align: center; /* Center the text within the anchor tags */
+    display: block;
+    width: 100%;
+    text-align: center;
 }
 
 /* Styles for the header */
@@ -30,7 +30,8 @@ a {
     display: flex;
     align-items: center;
     background-color: #04290d;
-    padding: 10px;
+    padding: 15px;
+    width: 100%;
 }
 
 /* Styles for the navigation menu */
@@ -43,14 +44,16 @@ ul {
 }
 
 li {
+    align-content: center;
     margin: 0;
     padding: 3%;
+    width: 215px;
 }
 
 /* Styles for responsive behavior */
 @media screen and (max-width: 700px) {
     a{
-        width: 260px;
+        /* width: 260px; */
     }
     .header {
         flex-direction: column;
