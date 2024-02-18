@@ -49,9 +49,6 @@ li {
 
 /* Styles for responsive behavior */
 @media screen and (max-width: 700px) {
-    a{
-        /* width: 260px; */
-    }
     .header {
         flex-direction: column;
         text-align: center;
