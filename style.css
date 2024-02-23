@@ -13,6 +13,10 @@ a:hover{
     border-color: #19692f;
 }
 
+canvas {
+    border: 1px solid white;
+      }
+
 /* Common styles for anchor tags */
 a {
     font-size: 30px;
